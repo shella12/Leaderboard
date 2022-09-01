@@ -2,55 +2,61 @@
 
 # Project Name
 
-> Description the project.
+> Leaderboard score.
 
+## Description
+
+-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+- HTML, CSS, ES6
+- Webpack
+- API
 
 ### Prerequisites
 
-### Setup
+- Vistual Studio Code
+- Browser (Firefox / Google Chrome)
+- Node.js (v6.11.2+)
+- linters
 
-### Install
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+## Install Dependencies(with following Command)
+
+- npm install --save -dev
+
+## Build webpack
+
+- run command npm run build
+
+## Start server
+
+- npm start
+
+## To test the app run following command
+
+- npm test
 
 ### Usage
 
-### Run tests
+Showcase your todo list.
 
-### Deployment
+## Live Demo (if available)
 
-
+[Live Demo Link](https://shella12.github.io/leaderboard.github.io/dist)
+![](./app_screenshot.png)
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@shella12](https://github.com/shella12)
+- Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
+- LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/ayesha-arshad-a690a015a/)
 
 ## 🤝 Contributing
 
@@ -61,12 +67,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
