@@ -8,7 +8,9 @@ const refresh = async (urlScore) =>{
            },
      })
      .then((response) => response.json())
-     .then((json) => console.log(json.result));
+     .then((json) => json.result);
+
+     return displayObject;
  }
 
  module.exports = refresh;

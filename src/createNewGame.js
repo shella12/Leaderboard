@@ -4,7 +4,7 @@ const idfunc= async (url)=>{
    const idfetch= await fetch(url, {
         method: 'POST',
         body: JSON.stringify({
-          name: "My cool new game", 
+          name: "New game", 
         }),
         headers: {
           'Content-type': 'application/json; charset=UTF-8',
