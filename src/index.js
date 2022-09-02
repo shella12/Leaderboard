@@ -19,6 +19,8 @@ idfunc('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/')
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');
 const form = document.getElementById('form');
+const ulist = document.getElementById('ulist');
+ulist.innerHTML = '<li>list is empty</li>';
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -32,5 +34,5 @@ form.addEventListener('submit', (event) => {
 const refreshBtn = document.getElementById('refresh');
 refreshBtn.addEventListener('click', () => {
   refresh(urlScore)
-    .then((value) => console.log(value));
+    .then((value) => list(value));
 });
