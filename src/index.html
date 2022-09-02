@@ -17,18 +17,16 @@
                 <button type="button" class="refresh" id="refresh">Refresh</button>
             </div>
             <div class="table">
-                <ul>
-                    <li>Name:100</li>
-                    <li>Name:20</li>
-                    <li>Name:50</li>
+                <ul id="ulist">
                 </ul>
             </div>
         </div>
         <div class="score-add">
             <h2>Add Your Scores</h2>
-            <form>
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your scores">
+            <form id="form">
+               
+                <input type="text" placeholder="Your name" id="name" required>
+                <input type="number" placeholder="Your scores" id="score" required>
                 <input type="submit" value="submit">
             </form>
         </div>
