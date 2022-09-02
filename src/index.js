@@ -32,5 +32,5 @@ form.addEventListener('submit', (event) => {
 const refreshBtn = document.getElementById('refresh');
 refreshBtn.addEventListener('click', () => {
   refresh(urlScore)
-    .then((value) => list(value));
+    .then((value) => console.log(value));
 });
