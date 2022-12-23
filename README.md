@@ -47,7 +47,7 @@ Showcase your todo list.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://shella12.github.io/leaderboard.github.io/dist)
+[Live Demo Link](https://shella12.github.io/Leaderboard.github.io/dist)
 ![](./app_screenshot.png)
 
 ## Authors
