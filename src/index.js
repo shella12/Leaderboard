@@ -13,8 +13,7 @@ const urlScoreFunction = (id) => {
 };
 
 idfunc('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/')
-  .then((id) => urlScoreFunction(id))
-  .then(() => console.log(urlScore));
+  .then((id) => urlScoreFunction(id));
 
 const nameInput = document.getElementById('name');
 const scoreInput = document.getElementById('score');

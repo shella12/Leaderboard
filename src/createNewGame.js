@@ -9,9 +9,9 @@ const idfunc = async (url) => {
     },
   })
     .then((response) => response.json())
-    .then((json) => json.result)
-    .then((json) => json.split(' '))
-    .then((json) => json[3]);
+    .then((obj) => obj.result)
+    .then((array) => array.split(' '))
+    .then((result) => result[3]);
 
   return idfetch;
 };
