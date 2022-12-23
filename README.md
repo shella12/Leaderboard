@@ -1,75 +1,112 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# 📗 Table of Contents
 
-# Project Name
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-> Leaderboard score.
+# 📖 [Leaderboard] <a name="about-project"></a>
 
-## Description
+> The leaderboard is a website which uses  RESTful APIs to store scores of the game.
 
--The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external [Leaderboard API service](https://www.notion.so/microverse/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3).
 
-## Built With
+## 🛠 Built With <a name="built-with"></a>
 
-- HTML, CSS, ES6
-- Webpack
-- API
+### Tech Stack <a name="tech-stack"></a>
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">Javascipt</a></li>
+  </ul>
+</details>
 
-### Prerequisites
+### Key Features <a name="key-features"></a>
 
-- Vistual Studio Code
-- Browser (Firefox / Google Chrome)
-- Node.js (v6.11.2+)
-- linters
+- **[Add Scores To The Leader Board]**
+- **[Save Scores using API]**
 
-## Getting Started
+## 🚀 Live Demo <a name="live-demo"></a>
+
+Click here to see the [Live Demo](https://shella12.github.io/Leaderboard.github.io/dist) of the website 
+
+![](./app_screenshot.png)
+
+## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running follow these simple example steps.
 
-## Install Dependencies(with following Command)
+### Prerequisites
 
-- npm install --save -dev
+In order to run this project you need:
+- Vistual Studio Code
+- Browser (Firefox / Google Chrome)
+- Node.js (v6.11.2+)
 
-## Build webpack
+### Setup
 
-- run command npm run build
+Clone this repository to your desired folder:
+
+```sh
+  cd my-folder
+  git clone git@github.com:shella12/Leaderboard.git
+```
+
+## Install
+
+```sh
+ npm install --save -dev
+```
 
 ## Start server
 
-- npm start
+``` npm start ```
 
-## To test the app run following command
+## To build
 
-- npm test
+``` npm run build ```
 
 ### Usage
 
-Showcase your todo list.
+Create a score board for ypur game.
 
-## Live Demo (if available)
-
-[Live Demo Link](https://shella12.github.io/Leaderboard.github.io/dist)
-![](./app_screenshot.png)
-
-## Authors
-
-👤 **Author1**
+## 👥 Authors <a name="authors"></a>
 
 - GitHub: [@shella12](https://github.com/shella12)
 - Twitter: [@Ayesha Arshad](https://twitter.com/AyeshaA03712974)
 - LinkedIn: [Ayesha Arshad](https://www.linkedin.com/in/ayesha-arshad-a690a015a/)
 
-## 🤝 Contributing
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+## ⭐️ Show your support <a name="support"></a>
 
 Give a ⭐️ if you like this project!
 
-## 📝 License
+## ❓ FAQ <a name="faq"></a>
+
+- **[Why use this app?]**
+
+  - [To create a game score board]
+
+- **[Why build this app?]**
+
+  - [Its a good app to learn building with APIs and Javascript DOM manipulation]
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
